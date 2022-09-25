@@ -1,0 +1,260 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "OrderBook",
+					"jsonFile" : "directory-OrderBook-Debug-ad8455752b51e0945979.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "OrderBook",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "OrderBookTests",
+					"childIndexes" : 
+					[
+						3,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-OrderBookTests-Debug-0901eb586494cb0fe056.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "OrderBookTests"
+				},
+				{
+					"build" : "OrderBookTests/lib/googletest",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-OrderBookTests.lib.googletest-Debug-a59d06b1b48d95a343fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "OrderBookTests/lib/googletest"
+				},
+				{
+					"build" : "OrderBookTests/lib/googletest/googlemock",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-OrderBookTests.lib.googletest.googlemock-Debug-ab37e1c0d7b774705d91.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "OrderBookTests/lib/googletest/googlemock",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"build" : "OrderBookTests/lib/googletest/googletest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-OrderBookTests.lib.googletest.googletest-Debug-73e91f58e089e628c44d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 3,
+					"source" : "OrderBookTests/lib/googletest/googletest",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				},
+				{
+					"build" : "OrderBookTests/tests",
+					"jsonFile" : "directory-OrderBookTests.tests-Debug-5649845340bb20375070.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24.1"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "OrderBookTests/tests",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						6
+					],
+					"name" : "OrderBookDemo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "gmock",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "gtest",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "OrderBook::@b1ddcaa2fe4970101387",
+					"jsonFile" : "target-OrderBook-Debug-44aaf59ab3272dd37b16.json",
+					"name" : "OrderBook",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OrderBookDemo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OrderBookDemo-Debug-81abb2cfd05b0667bf92.json",
+					"name" : "OrderBookDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "RunTests::@e0a6cfdc1d116671294b",
+					"jsonFile" : "target-RunTests-Debug-99f66aae8577dac252fd.json",
+					"name" : "RunTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gmock::@05d3934e572ddec06121",
+					"jsonFile" : "target-gmock-Debug-8e80e37f8c8fc58906d0.json",
+					"name" : "gmock",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gmock_main::@05d3934e572ddec06121",
+					"jsonFile" : "target-gmock_main-Debug-94ccca5dc0646d5fb878.json",
+					"name" : "gmock_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "gtest::@f55d057e8d25ac0988fb",
+					"jsonFile" : "target-gtest-Debug-0e2c2773e3fd9408a144.json",
+					"name" : "gtest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "gtest_main::@f55d057e8d25ac0988fb",
+					"jsonFile" : "target-gtest_main-Debug-f2245f134493ff2d1bbc.json",
+					"name" : "gtest_main",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/normanseeger/Dropbox/3_Work/coding/OrderBookDemo/build",
+		"source" : "/Users/normanseeger/Dropbox/3_Work/coding/OrderBookDemo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
